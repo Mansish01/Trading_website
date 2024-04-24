@@ -1,0 +1,189 @@
+import React, { useState, useEffect} from 'react'
+import { Link } from 'react-scroll'
+// import { Link } from 'react-router-dom';
+import Menu from '@mui/icons-material/Menu';
+
+
+const Navbar = () => {
+
+    const[showMenu, setshowMenu] = useState(false);
+
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+      if (window.innerWidth > 768) {
+        setshowMenu(false); // Reset the state when window size exceeds 768px
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+    const toggleMenu = () => {
+        setshowMenu(!showMenu);
+    };
+
+  return (
+    <nav className='navbar'>
+        <div className="navcontainer">
+            <div className="row">
+                <div className="logo">
+                    <Link
+                        activeClass="active"
+                        to="headerbg"
+                        spy={true}
+                        smooth={true}
+                        duration={1000}
+                    >
+                        <img src="/images/logo-transparent-png.png" alt="logo" className='logoimage'
+                        
+                        />
+                    </Link>
+                </div>
+                
+                <div className='verticaldivider'></div>
+
+                <ul className="topbar">
+                    <li>
+                        <Link
+                            
+                            activeClass="active"
+                            spy={true}
+                            smooth={true}
+                            duration={1000}
+                            to="headerbg"
+                        >
+                        HOME
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            
+                            activeClass="active"
+                            to="services"
+                            spy={true}
+                            smooth={true}
+                            duration={1000}
+                        >
+                            OUR COMPANY
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            
+                            to="about-scroll"
+                            spy={true}
+                            smooth={true}
+                            duration={1000}
+                            activeClass="active"
+                        >
+                            PRODUCTS
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            duration={1000}
+                            activeClass="active"
+                        >
+                            SERVICES
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            duration={1000}
+                            activeClass="active"
+                        >
+                            CONTACT US
+                        </Link>
+                    </li>
+                </ul>
+
+                <button className="menu-button" onClick={toggleMenu}>
+                    <Menu className='menuicon'/>
+                </button>
+
+                {showMenu && (<div className="menu-container">
+                    <ul className="menu-items">
+                        <li>
+                            <Link
+                                
+                                activeClass="active"
+                                spy={true}
+                                smooth={true}
+                                duration={1000}
+                                to="headerbg"
+                            >
+                            HOME
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                
+                                activeClass="active"
+                                to="services"
+                                spy={true}
+                                smooth={true}
+                                duration={1000}
+                            >
+                                OUR COMPANY
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                
+                                to="about-scroll"
+                                spy={true}
+                                smooth={true}
+                                duration={1000}
+                                activeClass="active"
+                            >
+                                PRODUCTS
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                duration={1000}
+                                activeClass="active"
+                            >
+                                SERVICES
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                duration={1000}
+                                activeClass="active"
+                            >
+                                CONTACT US
+                            </Link>
+                        </li>
+                    </ul>
+                </div>)}
+                
+            </div>
+        </div>
+    </nav>
+  )
+}
+
+export default Navbar
