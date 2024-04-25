@@ -13,7 +13,7 @@ const Navbar = () => {
     useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
-      if (window.innerWidth > 768) {
+      if (window.innerWidth > 1100) {
         setshowMenu(false); // Reset the state when window size exceeds 768px
       }
     };
@@ -82,7 +82,7 @@ const Navbar = () => {
                             duration={1000}
                             activeClass="active"
                         >
-                            PRODUCTS
+                            COMMODITIES
                         </Link>
                     </li>
                     <li>
@@ -150,7 +150,7 @@ const Navbar = () => {
                                 duration={1000}
                                 activeClass="active"
                             >
-                                PRODUCTS
+                                COMMODITIES
                             </Link>
                         </li>
                         <li>
