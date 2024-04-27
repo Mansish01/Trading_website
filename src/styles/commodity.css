@@ -1,0 +1,23 @@
+.commoditycontainer{
+    width: 100%;
+}
+
+.commodityheader{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:rgb(36, 34, 34);
+    margin-bottom: 3rem;
+}
+
+.commoditydescription{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    line-height: 1.9rem;
+    color: #7c5e0c;
+    margin: 0 1rem ;
+    margin: 0 5% 5rem 5%;
+}
