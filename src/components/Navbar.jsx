@@ -70,7 +70,7 @@ const Navbar = () => {
                             smooth={true}
                             duration={1000}
                         >
-                            OUR COMPANY
+                            ABOUT US
                         </Link>
                     </li>
                     <li>
@@ -138,7 +138,7 @@ const Navbar = () => {
                                 smooth={true}
                                 duration={1000}
                             >
-                                OUR COMPANY
+                                ABOUT US
                             </Link>
                         </li>
                         <li>

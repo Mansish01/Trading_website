@@ -24,7 +24,7 @@ const Midsection = () => {
             </p>
 
             <p className="rightmidcontent2">
-                In the end, our partnership our clients to focus on
+                In the end, our partnership with clients focuses on
                 their core business while we handle the complexities
                 of international trade, ensuring seamless transactions
                 and peace of mind.
