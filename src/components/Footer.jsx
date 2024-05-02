@@ -4,24 +4,32 @@ import "../styles/Footer.css";
 const Footer = () => {
   return (
     <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
+      <div class="containerabove">
+          <div class="footerabout">
             <h6>About</h6>
-            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p class="text-justify">
+            GC Trade, based in France, stands as a 
+            pioneering international commodity 
+            brokerage house led by the first 
+            Nepali entrepreneur to operate globally. 
+            Our commitment to excellence ensures a 
+            comfortable and confident experience for 
+            all our clients, including shippers, 
+            traders, exporters, importers, and industrialists.
+            </p>
           </div>
-          <div class="col-6 col-md-3">
-            <h6>PRODUCTS</h6>
+          <div class="footercommodity">
+            <h6>COMMODITIES</h6>
             <ul class="footer-links ">
-              <li><a href="#">Website Design</a></li>
-              <li><a href="#">UI Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Video Editor</a></li>
-              <li><a href="#">Theme Creator</a></li>
-              <li><a href="#">Templates</a></li>
+              <li><a href="#">Wheat</a></li>
+              <li><a href="#">Feedstuff</a></li>
+              <li><a href="#">Edible Oils</a></li>
+              <li><a href="#">Oil Seeds</a></li>
+              <li><a href="#">Fertilizers</a></li>
+              <li><a href="#">Milk Products</a></li>
             </ul>
           </div>
-          <div class="col-6 col-md-3">
+          <div class="footerquick">
             <h6>Quick Links</h6>
             <ul class="footer-links">
             <li><a href="#">About Us</a></li>
@@ -30,27 +38,32 @@ const Footer = () => {
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Sitemap</a></li>
             </ul>
-          </div>
+
         </div>
-        <hr class="small"/>
+       
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-12">
-            <p class="copyright-text">Copyright © 2024 All Rights Reserved by
-              <a href="#"><span class="logo">GCTRADES</span></a>
-            </p>
+      <hr class="small"/>
+
+      <div class="containerbelow">
+          <div class="copyrightsection">
+
+              <p class="copyright-text">Copyright©2024 All Rights Reserved
+                <span><a href="#">GCTRADE</a></span>
+              </p>
+
+            
+           
           </div>
-        <div class="col-md-4 col-sm-6 col-12">
+        <div class="sociallinksection">
         <ul class="social-icons">
-        <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
-        <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
       </div>
       </div>
-      </div>
+
+      <p className='email'>If you have any queries, feel free to email us at <a href="mailto:companyemail@example.com">companyemail@example.com</a></p>
     </footer>
   )
 }
