@@ -35,7 +35,7 @@ const Navbar = () => {
                 <div className="logo">
                     <Link
                         activeClass="active"
-                        to="headerbg"
+                        to="#"
                         spy={true}
                         smooth={true}
                         duration={1000}
@@ -56,7 +56,7 @@ const Navbar = () => {
                             spy={true}
                             smooth={true}
                             duration={1000}
-                            to="headerbg"
+                            to="#"
                         >
                         HOME
                         </Link>
@@ -65,7 +65,7 @@ const Navbar = () => {
                         <Link
                             
                             activeClass="active"
-                            to="services"
+                            to="aboutus"
                             spy={true}
                             smooth={true}
                             duration={1000}
@@ -76,7 +76,7 @@ const Navbar = () => {
                     <li>
                         <Link
                             
-                            to="about-scroll"
+                            to="commoditycontainer"
                             spy={true}
                             smooth={true}
                             duration={1000}
@@ -88,7 +88,7 @@ const Navbar = () => {
                     <li>
                         <Link
                             
-                            to="contact"
+                            to="services"
                             spy={true}
                             smooth={true}
                             duration={1000}
@@ -100,7 +100,7 @@ const Navbar = () => {
                     <li>
                         <Link
                             
-                            to="contact"
+                            to="containerbelow"
                             spy={true}
                             smooth={true}
                             duration={1000}
@@ -124,7 +124,7 @@ const Navbar = () => {
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
-                                to="headerbg"
+                                to="#"
                             >
                             HOME
                             </Link>
@@ -133,7 +133,7 @@ const Navbar = () => {
                             <Link
                                 
                                 activeClass="active"
-                                to="services"
+                                to="aboutus"
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
@@ -144,7 +144,7 @@ const Navbar = () => {
                         <li>
                             <Link
                                 
-                                to="about-scroll"
+                                to="commoditycontainer"
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
@@ -156,7 +156,7 @@ const Navbar = () => {
                         <li>
                             <Link
                                 
-                                to="contact"
+                                to="services"
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
@@ -168,7 +168,7 @@ const Navbar = () => {
                         <li>
                             <Link
                                 
-                                to="contact"
+                                to="containerbelow"
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
