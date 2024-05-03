@@ -40,9 +40,9 @@ const Navbar = () => {
                         smooth={true}
                         duration={1000}
                     >
-                        <img src="/images/logo-transparent-png.png" alt="logo" className='logoimage'
+                        <img src="/images/logo.png" alt="logo" className='logoimage'
                         
-                        />
+                    />
                     </Link>
                 </div>
                 

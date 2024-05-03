@@ -27,12 +27,12 @@ const Services = () => {
                     </p>
 
                     <div className="rightservicecontainer">
-                        <p className="rightservice1">YOUR WORLDWIDE</p>
-                        <p className="rightservice1">TRADING PARTNER</p>
+                        <p className="rightservice1">YOUR</p>
+                        <p className="rightservice1">WORLDWIDE</p>
 
-                        <p className="rightservice2">ANYTIME</p>
-                        <p className="rightservice2">&</p>
-                        <p className="rightservice2">ANYWHERE</p>
+                        <p className="rightservice2">Trading</p>
+                        <p className="rightservice2">Partner</p>
+                        
 
                     </div>
 
