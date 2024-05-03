@@ -10,7 +10,7 @@ export const Products = [
     {
         "id":2,
         "productname":"FEEDSTUFF",
-        "description" : "GC Trade specializes in trading feedstuff commodities essential for animal nutrition, including soybean meal, corn gluten meal, sunflower meal, canola meal, and palm kernel meal. ",
+        "description" : "GC Trade specializes in trading feedstuff commodities essential for animal nutrition, including soybean meal, corn gluten meal, sunflower meal and canola meal. ",
         "productimage": "/product-images/feedstuff.png",
         "productimage": "/product-images/feedstuff.png",
     },
@@ -25,14 +25,14 @@ export const Products = [
     {
         "id":4,
         "productname":"MILK PRODUCTS",
-        "description" :"GC Trade specializes in trading milk products, offering a diverse range of dairy commodities  such as milk powder, cheese, butter, yogurt, and whey protein.",
+        "description" :"GC Trade specializes in trading milk products, offering a diverse range of dairy commodities  such as milk powder and butter.",
         "productimage": "/product-images/milkproducts.png",
     },
 
     {
         "id":5,
         "productname":"OILSEEDS",
-        "description" : "GC Trade specializes in trading oilseed commodities  such as soybeans, sunflower seeds, canola seeds, and palm kernels. ",
+        "description" : "GC Trade specializes in trading oilseed commodities  such as soybeans, sunflower seeds and canola seeds",
         "productimage": "/product-images/oilseeds.png",
     },
 
