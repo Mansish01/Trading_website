@@ -21,7 +21,7 @@ const Footer = () => {
           <div class="footercommodity">
             <h6>COMMODITIES</h6>
             <ul class="footer-links ">
-              <li><a href="#">Wheat</a></li>
+              <li><a href="#">Cereals</a></li>
               <li><a href="#">Feedstuff</a></li>
               <li><a href="#">Edible Oils</a></li>
               <li><a href="#">Oil Seeds</a></li>
@@ -62,8 +62,10 @@ const Footer = () => {
         </ul>
       </div>
       </div>
-
-      <p className='email'>If you have any queries, feel free to email us at <a href="mailto:companyemail@example.com">companyemail@example.com</a></p>
+      <p className='email'>If you have any queries, feel free to email us at:-
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gctrade.eu@gmail.com" target="_blank" rel="noopener noreferrer">gctrade.eu@gmail.com</a>
+      </p>
+      
     </footer>
   )
 }

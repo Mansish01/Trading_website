@@ -32,7 +32,7 @@ export const Products = [
     {
         "id":5,
         "productname":"OILSEEDS",
-        "description" : "GC Trade specializes in trading oilseed commodities  such as soybeans, sunflower seeds, canola seeds, and palm kernels. ",
+        "description" : "GC Trade specializes in trading oilseed commodities such as soybeans, sunflower seeds, canola seeds, and palm kernels. ",
         "productimage": "/product-images/oilseeds.png",
     },
 
