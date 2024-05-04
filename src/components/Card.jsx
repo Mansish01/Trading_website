@@ -4,7 +4,7 @@ import "../styles/Card.css"
 const Card = ({productname, description, productimage}) => {
   return (
     <div className="card">
-        <div className="cardcontainer">
+        <div className="cardcontainer" id={productname}>
             <img src={productimage} alt="product" />
 
             <div className="cardcontent">

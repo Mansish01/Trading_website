@@ -3,7 +3,7 @@ import "../styles/Aboutus.css"
 
 const Aboutus = () => {
   return (
-    <div className="aboutus">
+    <div className="aboutus" id='aboutus'>
         <div className="aboutuscontainer">
             <h1 className="aboutusheader">
                 ABOUT GC TRADE
