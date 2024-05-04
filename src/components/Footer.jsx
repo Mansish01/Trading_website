@@ -21,22 +21,25 @@ const Footer = () => {
           <div class="footercommodity">
             <h6>COMMODITIES</h6>
             <ul class="footer-links ">
-              <li><a href="#">Cereals</a></li>
-              <li><a href="#">Feedstuff</a></li>
-              <li><a href="#">Edible Oils</a></li>
-              <li><a href="#">Oil Seeds</a></li>
-              <li><a href="#">Fertilizers</a></li>
-              <li><a href="#">Milk Products</a></li>
+
+
+              <li><a href="#CEREALS">Cereals</a></li>
+              <li><a href="#FEEDSTUFF">Feedstuff</a></li>
+              <li><a href="#EDIBLE OIL">Edible Oils</a></li>
+              <li><a href="#OILSEEDS">Oil Seeds</a></li>
+              <li><a href="#FERTILIZERS">Fertilizers</a></li>
+              <li><a href="#MILK PRODUCTS">Milk Products</a></li>
+
             </ul>
           </div>
           <div class="footerquick">
             <h6>Quick Links</h6>
             <ul class="footer-links">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Contribute</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#commoditycontainer">Commodities</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#containerbelow">Contact Us</a></li>
             </ul>
 
         </div>
@@ -44,7 +47,7 @@ const Footer = () => {
       </div>
       <hr class="small"/>
 
-      <div class="containerbelow">
+      <div class="containerbelow" id="containerbelow">
           <div class="copyrightsection">
 
               <p class="copyright-text">Copyright©2024 All Rights Reserved
@@ -56,9 +59,9 @@ const Footer = () => {
           </div>
         <div class="sociallinksection">
         <ul class="social-icons">
-          <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          {/* <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li> */}
+          <li><a class="twitter" href="https://twitter.com/GCTRAD"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="linkedin" href="https://www.linkedin.com/in/m-bahadur-8661632/"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
       </div>
       </div>

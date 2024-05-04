@@ -6,7 +6,7 @@ import "../styles/commodity.css"
 const Commodities = () => {
 
   return (
-    <div className="commoditycontainer" >
+    <div className="commoditycontainer" id='commoditycontainer' >
       <h5 className="commodityheader">
         COMMODITIES
       </h5>
