@@ -4,12 +4,12 @@ const Midsection = () => {
   return (
     <div className="midsection">
         <div className="leftmidsection">
-            <p className='leftmidcontent1'>WE AIM TO STREAMLINE </p>
-            <p className='leftmidcontent2'>GLOBAL COMMODITY TRADING</p>
-            <p className='leftmidcontent3'>WITH</p>
-            <p className='leftmidcontent4'>expert negotiation</p>
-            <p className='leftmidcontent5'>&</p>
-            <p className='leftmidcontent6'>reliable logistics.</p>
+            <p className='leftmidcontent1'>WE AIM</p>
+            <p className='leftmidcontent2'>TO</p>
+            <p className='leftmidcontent3'>STREAMLINE</p>
+            <p className='leftmidcontent4'>Complex Global</p>
+            <p className='leftmidcontent5'>Commodity Trading</p>
+ 
 
 
         </div>

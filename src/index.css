@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
 }
 
 
@@ -29,7 +29,7 @@ code {
 }
 
 .logoimage{
-  width: 140px;
+  width: 300px;
   height: auto;
 }
 
@@ -37,8 +37,8 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
-  margin-left: 7rem;
+  /* padding: 2rem 0; */
+  margin-left: 0.5rem;
 
 }
 
@@ -46,16 +46,17 @@ code {
   display: flex;
   list-style-type: none;
   justify-content: center;
+  /* align-items: center; */
   padding: 0;
-  margin-right: 9rem;
+  margin-right: 2rem;
 
 }
 
 .topbar li{
   margin-right: 4rem;
-  font-size: 13px;
-  color: aliceblue;
-  margin-top: 3.9rem;
+  font-size: 17px;
+  color: rgb(7, 73, 7);
+  /* margin-top: 3.9rem; */
   cursor: pointer;
   font-weight: 500;
   letter-spacing: 2.5px;
@@ -64,9 +65,10 @@ code {
 .verticaldivider {
   height: 35px;
   width: 1px;
-  background-color: whitesmoke; 
+  background-color:  rgb(7, 73, 7); 
+
   margin: 0 20px;
-  margin-top: 3.9rem;
+  /* margin-top: 3.9rem; */
 }
 
 .header{
@@ -75,7 +77,8 @@ code {
 
 }
 
-video {
+
+.header img{
   position: absolute;
   top: 0;
   left: 0;
@@ -98,6 +101,7 @@ video {
 .headertext3 {
   font-size: 30px;
   font-weight: 800;
+  color:rgb(36, 34, 34);
   letter-spacing: 3px;
   white-space: nowrap;
   margin-bottom: 0;
@@ -107,6 +111,7 @@ video {
   margin-top: 0rem;
   font-size: 30px;
   font-weight: 800;
+  color:rgb(36, 34, 34);
   letter-spacing: 3px;
   margin-bottom: 0;
   white-space: nowrap;
@@ -119,7 +124,8 @@ video {
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #FCAE1E;
+  /* color: #FCAE1E; */
+  color: rgb(7, 73, 7);
  
 }
 
@@ -185,12 +191,13 @@ video {
   color:rgb(36, 34, 34);
 
 }
- .leftmidcontent4, .leftmidcontent5, .leftmidcontent6{
+ .leftmidcontent4, .leftmidcontent5{
   font-family: "Lobster", sans-serif;
   font-size:40px ;
   font-weight: 100;
   font-style: normal;
-  color: #c49102; 
+  /* color: #c49102;  */
+  color: rgb(7, 73, 7);
   margin-top: 0;
   margin-bottom:0;
  }

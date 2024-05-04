@@ -65,7 +65,12 @@ const Footer = () => {
       <p className='email'>If you have any queries, feel free to email us at:-
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gctrade.eu@gmail.com" target="_blank" rel="noopener noreferrer">gctrade.eu@gmail.com</a>
       </p>
-      
+    
+
+      {/* <p className='email'>If you have any queries, feel free to email us at:-
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gctrade.eu@gmail.com" target="_blank" rel="noopener noreferrer">gctrade.eu@gmail.com</a>
+      </p> */}
+
     </footer>
   )
 }
