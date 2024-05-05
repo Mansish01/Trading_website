@@ -3,7 +3,6 @@ import React from 'react'
 const Header = () => {
   return (
     <div className="header">
-       {/* <video src="/agriculture.mp4" loop autoPlay muted></video> */}
        <img src="/images/background1.png" alt="background-image" />
         
         <div className='headertext'>
