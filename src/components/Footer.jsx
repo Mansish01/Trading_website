@@ -57,7 +57,7 @@ const Footer = () => {
         <div class="sociallinksection">
         <ul class="social-icons">
           {/* <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li> */}
-          <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="twitter" href=""><i class="fab fa-twitter"></i></a></li>
           <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
       </div>
