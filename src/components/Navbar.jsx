@@ -12,7 +12,7 @@ const Navbar = () => {
     useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
-      if (window.innerWidth > 1100) {
+      if (windowWidth > 1100) {
         setshowMenu(false); // Reset the state when window size exceeds 768px
       }
     };
@@ -22,13 +22,13 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [windowWidth]);
     const toggleMenu = () => {
         setshowMenu(!showMenu);
     };
 
   return (
-    <nav className='navbar'>
+    <nav className='navbar' id='navbar'>
         <div className="navcontainer">
             <div className="row">
                 <div className="logo">
