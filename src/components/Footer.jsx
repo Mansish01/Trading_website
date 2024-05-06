@@ -48,7 +48,7 @@ const Footer = () => {
           <div class="copyrightsection">
 
               <p class="copyright-text">Copyright©2024 All Rights Reserved
-                <span><a href="#">GCTRADE</a></span>
+                <span><a href="#navbar">GCTRADE</a></span>
               </p>
 
             
