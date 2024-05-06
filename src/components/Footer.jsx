@@ -32,7 +32,7 @@ const Footer = () => {
           <div class="footerquick">
             <h6>Quick Links</h6>
             <ul class="footer-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="#navbar">Home</a></li>
             <li><a href="#aboutus">About Us</a></li>
             <li><a href="#commoditycontainer">Commodities</a></li>
             <li><a href="#services">Services</a></li>
@@ -57,8 +57,8 @@ const Footer = () => {
         <div class="sociallinksection">
         <ul class="social-icons">
           {/* <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li> */}
-          <li><a class="twitter" href=""><i class="fab fa-twitter"></i></a></li>
-          <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a class="twitter" href="https://www.youtube.com/watch?v=kBmqYz900mU&t=80s"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="linkedin" href="https://www.youtube.com/watch?v=kBmqYz900mU&t=80s"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
       </div>
       </div>
