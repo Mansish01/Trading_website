@@ -7,7 +7,7 @@ const Header = () => {
 
        {/* <img src="/images/BG_image.jpg" alt="background-image" /> */}
 
-       <img src="/images/background1.png" alt="background-image" />
+       <img src="/images/background1.png" alt="background" />
        <img src="/images/background1.png" alt="background" />
 
         
