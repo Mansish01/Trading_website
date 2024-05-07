@@ -14,7 +14,8 @@
 .commoditydescription{
     text-align: center;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    font-family: roboto;
     letter-spacing: 2px;
     line-height: 1.9rem;
     color: #ffa600;
