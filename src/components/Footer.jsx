@@ -63,8 +63,6 @@ const Footer = () => {
 
           <li><a class="twitter" href="https://twitter.com/GCTRAD"><i class="fab fa-twitter"></i></a></li>
           <li><a class="linkedin" href="https://www.linkedin.com/in/m-bahadur-8661632/"><i class="fab fa-linkedin-in"></i></a></li>
-          <li><a class="twitter" href="https://www.youtube.com/watch?v=kBmqYz900mU&t=80s"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="linkedin" href="https://www.youtube.com/watch?v=kBmqYz900mU&t=80s"><i class="fab fa-linkedin-in"></i></a></li>
 
         </ul>
       </div>
