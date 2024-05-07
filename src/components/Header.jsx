@@ -3,11 +3,12 @@ import React from 'react'
 const Header = () => {
   return (
     <div className="header">
-       {/* <video src="/agriculture.mp4" loop autoPlay muted></video> */}
+       <video src="/agriculture.mp4" loop autoPlay muted></video>
 
        {/* <img src="/images/BG_image.jpg" alt="background-image" /> */}
 
        <img src="/images/background1.png" alt="background-image" />
+       <img src="/images/background1.png" alt="background" />
 
         
         <div className='headertext'>

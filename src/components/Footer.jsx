@@ -35,7 +35,7 @@ const Footer = () => {
           <div class="footerquick">
             <h6>Quick Links</h6>
             <ul class="footer-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="#navbar">Home</a></li>
             <li><a href="#aboutus">About Us</a></li>
             <li><a href="#commoditycontainer">Commodities</a></li>
             <li><a href="#services">Services</a></li>
@@ -51,7 +51,7 @@ const Footer = () => {
           <div class="copyrightsection">
 
               <p class="copyright-text">Copyright©2024 All Rights Reserved
-                <span><a href="#">GCTRADE</a></span>
+                <span><a href="#navbar">GCTRADE</a></span>
               </p>
 
             
@@ -60,8 +60,12 @@ const Footer = () => {
         <div class="sociallinksection">
         <ul class="social-icons">
           {/* <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li> */}
+
           <li><a class="twitter" href="https://twitter.com/GCTRAD"><i class="fab fa-twitter"></i></a></li>
           <li><a class="linkedin" href="https://www.linkedin.com/in/m-bahadur-8661632/"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a class="twitter" href="https://www.youtube.com/watch?v=kBmqYz900mU&t=80s"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="linkedin" href="https://www.youtube.com/watch?v=kBmqYz900mU&t=80s"><i class="fab fa-linkedin-in"></i></a></li>
+
         </ul>
       </div>
       </div>

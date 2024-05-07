@@ -12,7 +12,6 @@ export const Products = [
         "productname":"FEEDSTUFF",
         "description" : "GC Trade specializes in trading feedstuff commodities essential for animal nutrition, including soybean meal, corn gluten meal, sunflower meal and canola meal. ",
         "productimage": "/product-images/feedstuff.png",
-        "productimage": "/product-images/feedstuff.png",
     },
 
     {
