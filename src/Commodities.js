@@ -1,9 +1,9 @@
 export const Products = [
     {
         id : 1,
-        productname : "EDIBLE OIL",
-        description : "GC Trade specializes in trading edible oils such as palm, soybean, sunflower, canola, and corn oil. ",
-        productimage :"/product-images/edibleoil.png",
+        productname : "OIL AND OILSEEDS",
+        description : "GC Trade specializes in trading edible oils such as palm, soybean, sunflower, canola, and corn oil and also oilseed commodities  such as soybeans, sunflower seeds, rapeseed and canola seeds ",
+        productimage :"/product-images/oilseeds.png",
 
     },
 
@@ -16,33 +16,33 @@ export const Products = [
 
     {
         "id":3,
-        "productname":"FERTILIZERS",
-        "description" : " GC Trade includes a range of fertilizers such as nitrogen-based, phosphorus-based, and potassium-based fertilizers, as well as specialty blends tailored to specific crop needs. ",
-        "productimage": "/product-images/fertilizers.png",
+        "productname":"CEREALS",
+        "description" : "GC Trade specializes in trading cereal commodities such as wheat, corn, rice, barley, and oats. ",
+        "productimage": "/product-images/wheat.png",
     },
 
     {
         "id":4,
+        "productname":"PULSES",
+        "description" : " GC Trade specializes in trading yellow peas, chickpeas, and green peas as their commodities. ",
+        "productimage": "/product-images/pulses.jpg",
+    },
+
+    {
+        "id":5,
+        "productname":"SUGAR",
+        "description" : "GC Trade also specializes in trading sugar as their commodity.",
+        "productimage": "/product-images/sugar.jpg",
+    },
+
+    {
+        "id":6,
         "productname":"MILK PRODUCTS",
         "description" :"GC Trade specializes in trading milk products, offering a diverse range of dairy commodities  such as milk powder and butter.",
         "productimage": "/product-images/milkproducts.png",
     },
 
-    {
-        "id":5,
-        "productname":"OILSEEDS",
-
-        "description" : "GC Trade specializes in trading oilseed commodities  such as soybeans, sunflower seeds, rapeseed and canola seeds",
-
-        "productimage": "/product-images/oilseeds.png",
-    },
-
-    {
-        "id":6,
-        "productname":"CEREALS",
-        "description" : "GC Trade specializes in trading cereal commodities such as wheat, corn, rice, barley, and oats. ",
-        "productimage": "/product-images/wheat.png",
-    },
+   
 
 ]
 
