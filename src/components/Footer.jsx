@@ -1,13 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../styles/Footer.css";
 
-const Footer = () => {
+const Footer = ({value}) => {
+
+  const[showPopup, setshowPopup] = useState(false);
+
+  const handleEmailclick = (event) => {
+    event.preventDefault();
+    setshowPopup(true);
+  }
+
+  const handleclosePopup = () => {
+    setshowPopup(false);
+  };
+
+  const handleLoginClick = () => {
+    setshowPopup(false);
+    window.location.href = "/login";
+
+  };
+
+  const handleregisterClick = () => {
+    setshowPopup(false);
+    window.location.href = "/register";
+  };
+
   return (
-    <footer class="site-footer">
-      <div class="containerabove">
-          <div class="footerabout">
+    <footer className="site-footer">
+      <div className="containerabove">
+          <div className="footerabout">
             <h6>About</h6>
-            <p class="text-justify">
+            <p className="text-justify">
             GC Trade, based in France, stands as a 
             pioneering international commodity 
             brokerage house led by the first 
@@ -18,9 +41,9 @@ const Footer = () => {
             traders, exporters, importers, and industrialists.
             </p>
           </div>
-          <div class="footercommodity">
+          <div className="footercommodity">
             <h6>COMMODITIES</h6>
-            <ul class="footer-links ">
+            <ul className="footer-links ">
 
 
               <li><a href="#CEREALS">Cereals</a></li>
@@ -32,9 +55,9 @@ const Footer = () => {
 
             </ul>
           </div>
-          <div class="footerquick">
+          <div className="footerquick">
             <h6>Quick Links</h6>
-            <ul class="footer-links">
+            <ul className="footer-links">
             <li><a href="#navbar">Home</a></li>
             <li><a href="#aboutus">About Us</a></li>
             <li><a href="#commoditycontainer">Commodities</a></li>
@@ -45,38 +68,71 @@ const Footer = () => {
         </div>
        
       </div>
-      <hr class="small"/>
+      <hr className="small"/>
 
-      <div class="containerbelow" id="containerbelow">
-          <div class="copyrightsection">
+      <div className="containerbelow" id="containerbelow">
+          <div className="copyrightsection">
 
-              <p class="copyright-text">Copyright©2024 All Rights Reserved
+              <p className="copyright-text">Copyright©2024 All Rights Reserved
                 <span><a href="#navbar">GCTRADE</a></span>
               </p>
 
             
            
           </div>
-        <div class="sociallinksection">
-        <ul class="social-icons">
+        <div className="sociallinksection">
+        <ul className="social-icons">
           {/* <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li> */}
 
-          <li><a class="twitter" href="https://twitter.com/GCTRAD"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="linkedin" href="https://www.linkedin.com/in/m-bahadur-8661632/"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a className="twitter" href="https://twitter.com/GCTRAD"><i className="fab fa-twitter"></i></a></li>
+          <li><a className="linkedin" href="https://www.linkedin.com/in/m-bahadur-8661632/"><i className="fab fa-linkedin-in"></i></a></li>
 
         </ul>
       </div>
       </div>
       <p className='email'>If you have any queries, feel free to email us at:-
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gctrade.eu@gmail.com" target="_blank" rel="noopener noreferrer">gctrade.eu@gmail.com</a>
+      
+        {
+          value ? (<a href="https://mail.google.com/mail/?view=cm&fs=1&to=gctrade.eu@gmail.com" 
+          target="_blank" rel="noopener noreferrer" 
+          >gctrade.eu@gmail.com</a>) 
+          : (<a href="#" target="_blank" rel="noopener noreferrer" 
+          onClick={handleEmailclick}>gctrade.eu@gmail</a>)
+        }
+        
       </p>
     
+      {
+        !value && showPopup && (
+          <div className="popup">
+            <div className="popup-content">
+              <span className="close" onClick={handleclosePopup}> 
+                x
+              </span>
 
-      {/* <p className='email'>If you have any queries, feel free to email us at:-
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gctrade.eu@gmail.com" target="_blank" rel="noopener noreferrer">gctrade.eu@gmail.com</a>
-      </p> */}
+              <h3 className='popupheader'>Please Login</h3>
+              <p className='popuptext'> You need to login to continue.</p>
+
+              <button className='btn-primary' onClick={handleLoginClick} >
+                Login Now
+              </button>
+            
+              <p>.........................Or....................</p>
+              <p className="popuptext">If you are new here</p>
+
+              <button className="btn-primary" onClick={handleregisterClick}>
+                Register Now
+              </button>
+              
+            </div>
+          </div>
+        )
+      }
+
 
     </footer>
+
+
   )
 }
 
