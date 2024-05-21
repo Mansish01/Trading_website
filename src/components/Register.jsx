@@ -37,7 +37,7 @@ function Register() {
         position: "top-center",
       });
 
-      navigate("/");
+      navigate("/login");
 
     } catch (error) {
       toast.error(error.message, { 

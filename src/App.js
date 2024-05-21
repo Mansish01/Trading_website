@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -31,7 +30,7 @@ function App({rendernewTop, setrendernewTop}) {
           
           if (user) {
               // User is signed in
-              const uid = user.uid;
+              // const uid = user.uid;
               setrendernewTop(true); 
               console.log("User is signed in");
           } else {
@@ -43,7 +42,7 @@ function App({rendernewTop, setrendernewTop}) {
       });
 
       return () => unsubscribe(); // Cleanup function
-  }, []);
+  });
 
   return (
 

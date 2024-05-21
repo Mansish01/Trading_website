@@ -90,13 +90,13 @@ const Footer = ({value}) => {
         </ul>
       </div>
       </div>
-      <p className='email'>If you have any queries, feel free to email us at:-
+      <p className='email' id='email'>If you have any queries, feel free to email us at:-
       
         {
           value ? (<a href="https://mail.google.com/mail/?view=cm&fs=1&to=gctrade.eu@gmail.com" 
           target="_blank" rel="noopener noreferrer" 
           >gctrade.eu@gmail.com</a>) 
-          : (<a href="#" target="_blank" rel="noopener noreferrer" 
+          : (<a href="#email" target="_blank" rel="noopener noreferrer" 
           onClick={handleEmailclick}>gctrade.eu@gmail</a>)
         }
         
