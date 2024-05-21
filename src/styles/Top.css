@@ -1,7 +1,10 @@
 .top-container{
     
-    height: 50px;
+    height: 100px;
+    background-color: black;
     width: 100%;
+    margin-bottom: 5rem;
+    border-radius: 17px;
 }
 
 .top-text{
@@ -13,8 +16,11 @@
     font-style: normal;
     color: #ffa600;
     position: absolute;
-    top: 0;
+    
+    /* top: 0; */
     left:12% ;
+    padding-top: 1.5rem;
+ 
 }
 
 .top-container img{

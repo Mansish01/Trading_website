@@ -56,10 +56,11 @@ function App({rendernewTop, setrendernewTop}) {
             <Routes>
 
               <Route path="/" element={<>
-                {rendernewTop && <Top />}
                 <DropdownMenu rendernewTop={rendernewTop} setrendernewTop={setrendernewTop} />
                 <Navbar />
                 <Header />
+                {rendernewTop && <Top />}
+
                 <Midsection />
                 <Aboutus />
                 <Commodities />
