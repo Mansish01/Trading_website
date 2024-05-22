@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/Tiermembers.css"
-import Navbar from './Navbar'
+
 
 const Tiermembers = () => {
   return (
