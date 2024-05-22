@@ -14,7 +14,7 @@ const Commodities = () => {
       <p className="commoditydescription">
       GC Trade is dealing with various commodities such as wheat,
        edible oils, oilseeds, milk products, feedstuff, peas, 
-       sugar, fertilizers, soyabeans and other organic by products.
+       sugar, fertilizers and organic products like soyabeans and other by products.
       List of our products are increasing as we are constantly 
       looking to expand our offers in order to meet our 
       partners’ demand. New opportunities are always 
