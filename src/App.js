@@ -15,11 +15,11 @@ import Commodities from "./components/Commodities";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
 import DropdownMenu from "./components/Dropdown";
-import Top from "./components/Top";
 import { onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { auth } from "./components/firebase";
 import Loading from "./components/Loading";
+import Tiermembers from "./components/Tiermembers";
 
 function App({rendernewTop, setrendernewTop}) {
 
@@ -59,15 +59,16 @@ function App({rendernewTop, setrendernewTop}) {
                 <DropdownMenu rendernewTop={rendernewTop} setrendernewTop={setrendernewTop} />
                 <Navbar />
                 <Header />
-                {rendernewTop && <Top />}
 
                 <Midsection />
                 <Aboutus />
                 <Commodities />
                 <Services />
+                <Tiermembers />
                 <Footer value={rendernewTop} />
               </>} />
               <Route path="/register" element={<Register />} />
+             
 
             </Routes>
             <div className="auth-wrapper">

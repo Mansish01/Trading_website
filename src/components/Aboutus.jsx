@@ -28,7 +28,7 @@ const Aboutus = () => {
                 as a trusted business partner to a diverse range 
                 of companies, from small and medium-sized enterprises
                 to multinationals, facilitating their trade 
-                across Nepal, India, Pakistan, Bangladesh, and China.
+                across Nepal, India, Pakistan, Bangladesh, China and Europe too.
                 </p>
 
                 <p className="aboutuspara2">
