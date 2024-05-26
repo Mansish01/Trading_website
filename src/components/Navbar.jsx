@@ -96,6 +96,22 @@ const Navbar = () => {
                             SERVICES
                         </Link>
                     </li>
+
+
+                    <li>
+                        <Link
+                            
+                            to="tiermembers"
+                            spy={true}
+                            smooth={true}
+                            duration={1000}
+                            activeClass="active"
+                        >
+                            TIER PARTNERS
+                        </Link>
+                    </li>
+
+
                     <li>
                         <Link
                             
@@ -108,6 +124,8 @@ const Navbar = () => {
                             CONTACT US
                         </Link>
                     </li>
+
+
                 </ul>
 
                 <button className="menu-button" onClick={toggleMenu}>
